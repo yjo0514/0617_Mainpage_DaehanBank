@@ -51,6 +51,8 @@
 
 
 
+
+/*
 div#wrap{border: 1px solid #000;}
 header#header{border: 1px solid #000;}
 nav#gnb{border: 1px solid #000;}
@@ -63,6 +65,8 @@ div#robot{border: 1px solid #000;}
 div#human{border: 1px solid #000;}
 footer#foooter{border: 1px solid #000;}
 div#under{border: 1px solid #000;}
+*/
+
 
 
 
@@ -127,14 +131,63 @@ span#text{
 }
 
 
-div#contents>{
+div#tab{
+    padding: 10px;
+}
+
+#tab>*{
+    border: 1px solid #aaa;
+    padding: 10px;
 
 }
 
+#tab>button,tabBth{
+    font-size: 18px;
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+
+    position: relative;
+    top: 1px;
+
+
+}
+
+#tab>button:first-child{
+    border-color: #aaa;
+    border-bottom-color: #eee;
+    margin-left: 20px;
+    left: 6px;
+}
+
+#tab>button:nth-child(2){
+    border-color: #eee;
+    border-bottom-color: #aaa;
+}
 
 div#tab{
-    margin: 0 auto 0 10px;
+    margin: 0 auto 0 0px;
+    width: 400px;
+
 }
+
+
+
+#tab>*{
+    padding: 10px;
+}
+
+#tab>table td{
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+#tab>table td:first-child{
+    padding-right: 36px;
+}
+
+
+
+
 
 
 div#robot,#human{
@@ -155,17 +208,24 @@ right: 0px;
 }
 
 div#under{
-
 position: relative;
 left: 35%;
 right: 0px;
 }
 
+#under>ul>li{
+    margin-left: 10px;
+
+}
 
 
+#under>ul>li:nth-child(1){
+    padding-left: 40px;
+}
 
-
-
+div#footerimg{
+    margin-top: 12px;
+}
 
 
 
